@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cat">
+        <wb-resource deploy-path="/" source-path="/web" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/log4j"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/ant-contrib-0.6"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/cas"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/hibernate"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/jakarta-commons"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/jdbc"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/jexcelapi"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/jsf"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/mail"/>
+        <wb-resource deploy-path="/WEB-INF/lib" source-path="/lib/tomcat-5.5.17"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/conf/localhost"/>
+        <property name="context-root" value="cat"/>
+        <property name="java-output-path" value="/cat/build/classes"/>
+    </wb-module>
+</project-modules>
